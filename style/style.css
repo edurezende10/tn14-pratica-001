@@ -1,0 +1,53 @@
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.nav {
+  background-color: #3D87C1;
+  width: 20%;
+  height: 100vh;
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.avatar {
+  width: 70%;
+  margin: 5% 15% 0 15%;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.nome {
+  text-align: center;
+  margin: 10% 0;
+
+
+}
+
+.candidato {
+  font-weight: 500;
+  font-size: 2em;
+
+
+}
+
+.funcao {
+  font-weight: 500;
+  font-size: 1.2em;
+
+
+
+}
+
+.estilo-nav {
+  color: #DAF7F8;
+
+
+}
+
+.estilo-nav p {
+  text-align: center;
+}

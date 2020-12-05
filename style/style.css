@@ -4,13 +4,21 @@ body {
 }
 
 .nav {
-  background-color: #3D87C1;
-  width: 20%;
+  /* background-color: #3D87C1; */
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
   height: 100vh;
   float: left;
   position: fixed;
   top: 0;
   left: 0;
+}
+.main-content {
+  width: 60%;
+  margin-left: 35%;
+  padding: 50px 50px 70px;
 }
 
 .avatar {

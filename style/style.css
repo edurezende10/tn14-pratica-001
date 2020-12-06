@@ -1,61 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
+  line-height: 2;
 
 }
 
-.nav {
-  /* background-color: #3D87C1; */
-  background-image: url(../assets/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 30%;
-  height: 100vh;
-  float: left;
+.main-header {
+  background-color: #3D87C1;
   position: fixed;
   top: 0;
   left: 0;
+  height: 100vh;
+  width: 30%;
+  padding: 50px 50px 70px;
+  background-image: url(../assets/bg.jpg);
+  background-position:left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+  color: #DAF7F8;
+
 }
-.main-content {
+.main-content,
+footer {
   width: 60%;
   margin-left: 35%;
   padding: 50px 50px 70px;
 }
 
-.avatar {
-  width: 70%;
-  margin: 5% 15% 0 15%;
-  padding: 0;
+.main-header-photo {
+  width: 50%;
   border-radius: 50%;
 }
 
-.nome {
-  text-align: center;
-  margin: 10% 0;
 
 
-}
-
-.candidato {
-  font-weight: 500;
-  font-size: 2em;
-
-
-}
-
-.funcao {
-  font-weight: 500;
-  font-size: 1.2em;
-
-
-
-}
-
-.estilo-nav {
-  color: #DAF7F8;
-
-
-}
-
-.estilo-nav p {
-  text-align: center;
-}

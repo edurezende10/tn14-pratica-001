@@ -1,28 +1,75 @@
 *{
   box-sizing: border-box;
+  
+}
+a{
+  color: inherit;
+  font-weight: bolder;
+}
+strong{
+  font-weight: normal;
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
   line-height: 2;
 
 }
 
 .main-header {
   background-color: #3D87C1;
-  position: fixed;
+  position:fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 120vh;
   width: 30%;
-  padding: 50px 50px 70px;
+  padding: 50px 30px 70px;
   background-image: url(../assets/bg.jpg);
-  background-position:left top;
+  background-position:center top;
   background-size: cover;
-  background-repeat: no-repeat;
-  text-align: right;
-  color: #DAF7F8;
+  background-attachment: fixed;
+  text-align: center;
+  color: black;
 
+}
+.main-header-bg{
+  background-color: rgba(245, 251, 251,.8);
+  width: 350px;
+}
+.main-header-photo {
+  width: 200px;
+  height: 200px ;
+  margin-top: 10%;
+  border-radius: 50%;
+}
+.main-header-name {
+  font-size: 1.2em;
+  font-weight: normal;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+
+.main-header-title{
+  font-size: .8em;
+  line-height: 1.5;
+  font-weight: normal;
+  margin-bottom: 10%;
+}
+.main-header-ul li a {
+  font-size: .7em;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+
+}
+.center{
+  text-align: left;
+  border: black 4px solid;
+}
+.title{
+  display: table;
+  padding: 0 .5rem;
+  font-size: 1rem;
 }
 .main-content,
 footer {
@@ -31,10 +78,7 @@ footer {
   padding: 50px 50px 70px;
 }
 
-.main-header-photo {
-  width: 50%;
-  border-radius: 50%;
-}
+
 
 
 
